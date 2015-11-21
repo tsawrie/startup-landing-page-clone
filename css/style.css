@@ -4,3 +4,16 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+
+.header {
+	background-color: white;
+}
+
+#header-list li {
+	list-style-type: none;
+	display: inline;
+}
+
+.header img {
+	width: 3em;
+}
