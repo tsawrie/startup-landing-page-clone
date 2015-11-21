@@ -5,6 +5,22 @@ div {
     border: 1px solid Chocolate;
 }
 
+/* navigation section */
+
+.top-navigation {
+	background-color: white;
+}
+
+.top-navigation .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+/*! my content below */
+
+ */
+
 .header {
 	background-color: white;
 }
