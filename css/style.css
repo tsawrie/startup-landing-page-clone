@@ -5,6 +5,10 @@ div {
     border: 1px solid Chocolate;
 }
 
+.content {
+	padding: 0px 15px;
+}
+
 /* navigation section */
 
 .top-navigation {
@@ -17,19 +21,10 @@ div {
 	margin: 0 auto;
 }
 
-/*! my content below */
-
- */
-
-.header {
-	background-color: white;
+.links {
+	float: right;
 }
 
-#header-list li {
-	list-style-type: none;
-	display: inline;
-}
-
-.header img {
-	width: 3em;
+.links li {
+	display: inline-block;
 }
