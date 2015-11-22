@@ -6,9 +6,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-    background-color: LightGray;
-}
 div {
     border: 1px solid Chocolate;
 }
@@ -19,6 +16,7 @@ body {
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
+	background-color: LightGray;
 }
 
 .content {
@@ -29,6 +27,8 @@ body {
 
 .top-navigation {
 	background-color: white;
+	position: fixed;
+	width: 100%;
 }
 
 .content {
@@ -50,7 +50,6 @@ body {
 .links li {
 	display: inline-block;
 	margin-left: 1.5em;
-	font-family: 'Roboto', sans-serif;
 }
 
 .links li a {
@@ -62,5 +61,43 @@ body {
     cursor: pointer;
     color: #333333;
 }
+
+/* hero image section */
+
+.introduction {
+	background-image: url("../images/first-background.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 45rem; 
+}
+
+.introduction .content {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10em;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+	margin-bottom: 0;
+}
+
+.introduction h3 {
+	font-size: 1.563rem;
+	margin-top: .75rem;
+}
+
+.introduction h1, .introduction h3 {
+	text-align: center;
+	color: white;
+	font-weight: 300;
+}
+
+
+
+
+
 
 
