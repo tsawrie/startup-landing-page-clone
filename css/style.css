@@ -1,8 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: LightGray;
 }
 div {
     border: 1px solid Chocolate;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 
 .content {
@@ -15,16 +31,36 @@ div {
 	background-color: white;
 }
 
-.top-navigation .content {
+.content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
 }
 
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
 .links {
 	float: right;
+	margin-top: 1.7em;
 }
 
 .links li {
 	display: inline-block;
+	margin-left: 1.5em;
+	font-family: 'Roboto', sans-serif;
 }
+
+.links li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.top-navigation .links li a:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+
