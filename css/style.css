@@ -16,12 +16,8 @@ body {
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
-	background-color: LightGray;
 }
 
-.content {
-	padding: 0px 15px;
-}
 
 /* navigation section */
 
@@ -29,12 +25,14 @@ body {
 	background-color: white;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 .content {
-	width: 970px;
+	width: 772px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
 }
 
 .top-navigation .links .active {
@@ -117,6 +115,47 @@ body {
 	cursor: pointer;
 	background-color: #DA3601;
 }
+
+/* -----  cases section -------   */
+
+.cases {
+	background-color: white;
+	padding-bottom: 5rem;
+}
+
+.cases .content {
+	text-align: center;
+	margin-top: 7.875rem;
+}
+
+.cases h2 {
+	text-align: center;
+	color: #4c5058;
+	font-weight: 300;
+	font-size: 2.75rem;
+}
+
+.cases .devices {
+    width: 32.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.devices img {
+	width: 8em;
+	height: 8em;
+}
+
+
+
+.cases .caption h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	color: #4c5058;
+}
+
 
 
 
