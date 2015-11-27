@@ -121,6 +121,7 @@ body {
 .cases {
 	background-color: white;
 	padding-bottom: 5rem;
+	height: 28em;
 }
 
 .cases .content {
@@ -149,7 +150,6 @@ body {
 }
 
 
-
 .cases .caption h3 {
 	font-weight: 400;
 	font-size: 1.563rem;
@@ -157,6 +157,13 @@ body {
 }
 
 
+/* FOOTER SECTION */
 
+.social {
+	text-align: center;
+	padding-bottom: 9em;
+}
 
-
+.social li {
+	display: inline-block;
+}
